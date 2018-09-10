@@ -1,5 +1,7 @@
 FROM ubuntu:18.04
 
+MAINTAINER MikihitoMOROSAWA
+
 ARG NODE_VERSION="v8.11.4"
 
 RUN apt update && apt install -y curl && \
