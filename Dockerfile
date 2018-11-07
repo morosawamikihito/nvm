@@ -1,6 +1,6 @@
 FROM ubuntu:18.04
 
-MAINTAINER MikihitoMOROSAWA
+MAINTAINER Mikihito MOROSAWA
 
 RUN apt-get update && apt-get install -y vim curl && \
     curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.11/install.sh | bash
